@@ -14,13 +14,14 @@
     <title>Portfólio</title>
 </head>
 <body>
-
+    <!-- >> Nav/Header -->
     <nav id="nav" class="navbar navbar-expand-lg align-items-baseline p-4">
         <div class="container-fluid">
                 <a class="navbar-brand ps-4" href="#">Portfó<span>lio</span></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button id="btn-responsivo" class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon">
+                    </span>
                 </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto ">
@@ -40,8 +41,8 @@
                         <a class="nav-link" href="#">Contato</a>
                     </li>
                 </ul>
-                <div class="ms-sm-auto pe-4 ">
-                    <button class="btn " type="submit">Subscribe</button>
+                <div class="navbar-item ms-sm-auto pe-4 ">
+                    <button class="btn nav-link" type="submit">Subscribe</button>
                 </div>
             </div>
         </div>
@@ -62,14 +63,14 @@
       <main>
         <section class="container-fluid">
             <!-- >> Sobre Mim -->
-            <article class="container-fluid d-flex flex-wrap justify-content-around container-me">
-                <div class="img-me">
+            <article class="container-fluid container-me">
+                <div class="img-me img-fluid">
                     <img src="assets/img/main-img.png" alt="">
                 </div>
-                <div class="text-me">
+                <div class="text-me container-fluid">
                     <h2>Sobre mim</h2>
                     <h3>Desenvolvedor <span>& Designer</span></h3>
-                    <p>Eu sou um Desenvolvedor web front-end. Eu posso fornecer codigos limpos e imagem de desing perfeito. E também fazer o website mais & mais interativo e com animação web. E posso Deixar seu site responsivo, e que ele acesse todos os usuarios, independente dos seus aparelhos dispositivos.</p> 
+                    <p >Eu sou um Desenvolvedor web front-end. Eu posso fornecer codigos limpos e imagem de desing perfeito. E também fazer o website mais & mais interativo e com animação web. E posso Deixar seu site responsivo, e que ele acesse todos os usuarios, independente dos seus aparelhos dispositivos.</p> 
                     <button class="btn-interativo">Vamos Conversar</button>
                 </div>
             </article>
