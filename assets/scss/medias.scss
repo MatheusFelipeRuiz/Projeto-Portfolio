@@ -1,0 +1,85 @@
+@media (max-width: 800px)  {
+
+    .navbar-nav {
+        .nav-link {
+            text-align: center; 
+        }
+    }
+    .navbar-item {
+        .nav-link {
+            margin: auto;
+            margin-bottom: 20px;
+        }
+    }
+
+    /* Header/Nav */
+    #btn-responsivo {
+        .navbar-toggler-icon {
+            background-color: white;
+        }
+    }
+    #nav {
+        width: 120vw;
+    }
+
+    #input-email {
+        width: 340px !important;
+        input[type=email] {
+            width: 30%;
+            height: 35px;
+            border:none;
+            box-shadow: none;
+            outline: none;
+        }
+    }
+
+
+    /* Sobre Mim */
+    .container-me {
+        background-color: red;
+        width: 120vw;
+        .img-me {
+            img {
+                height: 300px; 
+            }
+        }
+        .text-me {
+            padding:  5px ;
+            width: 100% !important;
+            height: 700px;
+            h2 {
+                margin: auto;
+                text-align: center;
+                padding: 5px 0;
+                font-size: 15px;
+            }
+            h3 {
+                margin: auto;
+                text-align: center;
+                width: 350px;
+                font-size: 15px;
+            }
+            p {
+                margin: auto;
+                text-align: center;
+                width: 380px;
+                font-size: 10px;
+            }
+
+            button {
+                margin: auto;
+            }
+        }
+
+    }
+
+    .container-servicos {
+        width: 120vw;
+    }
+    .container-contato {
+        width: 120vw;
+    }
+    .footer {
+        width: 120vw;
+    }
+}
