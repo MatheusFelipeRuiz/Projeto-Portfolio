@@ -1,3 +1,25 @@
 *{
+    padding: 0;
+    margin: 0;
     font-family: 'Josefin Sans',sans-serif;
+}
+
+
+
+.btn-interativo {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 1px;
+    font-size: 15px;
+    border: none;
+    color: white;
+    font-family: 'Josefin Sans',sans-serif;
+    font-weight: 700;
+    background-color: #f9004d;
+    transition: all 0.1s  ease;
+    &:hover {
+        background:none;
+        border:2px solid #f9004d;
+    }
 }

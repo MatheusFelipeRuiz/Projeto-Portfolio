@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+@import './global.scss';
 @import './header.scss';
+@import './main-me.scss';
 
 
-main {
-    background-color: red;
-    background-position: center top;
-    background-repeat:no-repeat;
-    background-size: cover;
-}
 
