@@ -1,0 +1,36 @@
+.container-servicos {
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 5em;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    h2 {
+        font-size: 70px;
+        color: white;
+    }
+    .icon-img {
+        color: #f9004d;
+        font-size:40px;
+        margin: 0 auto;
+    }
+    .card {
+        background-color: #191919;
+        margin: 2px;
+        padding: 4px;
+        width: 18rem;
+        height: 300px;
+        h5 {
+            text-align: center;
+            color:#fff;
+        }
+        p {
+            color: #fcfc;
+        }
+        a.btn-interativo {
+            margin: 0 auto;
+        }
+    }
+
+}
